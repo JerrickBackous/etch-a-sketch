@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-sketch</title>
-    <style src="external.css"></style>
+    <link rel="stylesheet" href="styles.css">
     <script src="external.js" defer></script>
 </head>
 <body>
-    
+    <form id="form" onsubmit="return false;">
+        <input type="number" name="quantity" id="userInput" min="1" max="100"/>
+        <input type="submit" onclick="otherName();" />
+    </form>
 </body>
 </html>
